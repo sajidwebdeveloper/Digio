@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    padding-left: 150px;
+    padding-right: 200px;
+    margin-right: 50px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+
+#part_2 li{
+    list-style: none;
+}
+
+#part_2 ul{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+
+#part_3 button {
+    border: 1px solid salmon;
+    color: salmon;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+    align-items: center;
+    /* Adding shadow to the button */
+    box-shadow: 0px 4px 8px rgba(196, 59, 59, 0.2);
+}
+
+
+.content_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding-right: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+
+.left_part h1{
+    margin-top: 25px;
+}
+
+.left_part p{
+    margin-top: 10px;
+}
+
+.btn{
+    box-shadow: 0px 4px 8px rgba(196, 59, 59, 0.2);
+    background-color: salmon;
+    color: white;
+    border-radius: 13px;
+    width: 120px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 25px;
+}
+
+img{
+    width: 400px;
+    height: 270px;
+    object-fit:cover;
+}
+
+footer{
+    margin-top: 70px;
+    
+}
+.ptag{
+padding-left: 40%;   
+}
+
+.company ul{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.company li{
+    list-style: none;
+}
+
